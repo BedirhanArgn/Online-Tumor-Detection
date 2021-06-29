@@ -1,0 +1,43 @@
+.main-page{
+    display: flex;
+}
+.right-side{
+    align-self: flex-end;
+}
+.left-side{
+    width: 40vw;
+    margin: 5vw;
+}
+.right-side img{
+    margin-top: 50px;
+    width: 50vw;
+}
+.main-header{
+    color: #C80F0E;
+    font-size: 3em;
+}
+.main-buttons{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-button{
+    padding: 10px;
+    margin:10px;
+    width: 58%;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #C80F0E;
+    color: white;
+    font-size:  1.3em !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-button img{
+    width: 30px;
+}

@@ -1,0 +1,110 @@
+.login-container {
+    margin: 0 auto;
+    max-width: 480px;
+    height: 630px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-top: 41px !important;
+}
+
+.login-header {
+    background-color: #BF1E2D;
+    border-radius: 15px 15px 0px 0px;
+    color: whitesmoke;
+    height: 100px;
+}
+
+.login-header>h3 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.login-header > div {
+    position: relative;
+    top: 30%;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+}
+
+.login-image {
+    width: 200px;
+    height: 190px;
+    margin:30px auto;
+}
+
+.login-form {
+    padding-top: 15px;
+    margin:0 auto;
+}
+
+.login-form form {
+    width: 80%;
+    margin:0 auto;
+}
+
+.login-form .password-form {
+    padding-top: 20px;
+}
+
+.login-form .password-form input {
+padding-left:  3px;
+}
+
+.login-form label{
+    padding-right: 30px;
+}
+
+.login-form input {
+    outline: none;
+    height: 45px;
+    width: 100%;
+    border-style: solid;
+    //padding:3px 10px;
+    border-color: #babbbb;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight:700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-form input:focus {
+    border-color: #BF1E2D;
+}
+
+.login-form .submit-button {
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: #C91212;
+    border-color: #BF1E2D;
+    outline: none;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.login-form .submit-button:active {
+    background-color: #952b27;
+    border-color: #952b27;
+}
+
+@media screen and (max-width: 992px) {
+    .login-container {
+        padding: 0px 10px;
+    }
+    .login-header h3,div{
+        font-size: 15px;
+    }
+    .login-image img {
+        width: 150px;
+        height: 150px;
+    }
+    .login-form {
+        padding-top: 15px;
+    }
+}

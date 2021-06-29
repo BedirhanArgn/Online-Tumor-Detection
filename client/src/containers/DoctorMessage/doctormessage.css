@@ -1,0 +1,31 @@
+.messagePage {
+    display: flex;
+}
+
+.patientName {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 91.6vh;
+    width: 20vw;
+    background-color: rgb(72 170 200 / 56%);
+}
+
+.patientName h3 {
+    padding: 0;
+    margin-top: 0;
+    background-color: #48AAC8;
+    color: white;
+    padding: 20px;
+}
+
+.patientName .patient p {
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    background-color: #48AAC8;
+}
+
+.send-button button {
+    background-color: #48AAC8 !important;
+}

@@ -1,0 +1,15 @@
+.tumor-varieties.section{
+    display: flex;
+}
+.photos img{
+    width: 250px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.contex p{
+    text-align: left;
+    text-indent: 50px;
+}
+.contex h3{
+    color: #DE6239;
+}

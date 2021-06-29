@@ -1,0 +1,10 @@
+.popup-box div {
+    text-align: start;
+    border: 1px solid #e2dede;
+    padding: 5px;
+
+}
+
+.popup-box div span {
+    color: green;
+}

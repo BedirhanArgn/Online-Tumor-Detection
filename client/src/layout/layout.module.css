@@ -1,0 +1,48 @@
+.content {
+    //padding: 0 40px;
+    transition: padding-left 0.5s ease-in-out;
+}
+
+.layout {
+    min-height: 100vh;
+}
+.hamburgerMenu {
+    max-width: 250px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(83, 171, 142);
+}
+
+.hamburgerMenuClose {
+    max-width: 250px;
+    height: 100%;
+    position: fixed;
+    left: -250px;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(83, 171, 142);
+}
+
+.hamburgerMenuDoctor {
+    max-width: 250px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    transition: all 0.5s ease-in-out;
+    background-color: #48AAC8;
+}
+
+.hamburgerMenuCloseDoctor {
+    max-width: 250px;
+    height: 100%;
+    position: fixed;
+    left: -250px;
+    transition: all 0.5s ease-in-out;
+    background-color:  #48AAC8;
+}
+
+.contentSlide {
+    padding-left:250px;
+    transition: padding-left 0.5s ease-in-out;
+}

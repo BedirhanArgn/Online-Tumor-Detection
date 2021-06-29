@@ -1,0 +1,71 @@
+.form-item {
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px #e2dede solid;
+    border-radius: 10px;
+    background-color: #e2dede;
+}
+
+.form-item > span > span:first-child {
+    margin-left: 10px;
+    color: rgb(83, 171, 142);
+}
+
+.form-item > span img {
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.page-number {
+    position: relative;
+    top: 10px;
+}
+
+.page-number span {
+    margin-top: 4px;
+    border: 1px solid rgba(196, 196, 196, 0.4);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(83, 171, 142);
+    margin-right: 10px;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.active {
+    background: rgba(40, 150, 114, 0.8) !important;
+    color: white !important;
+}
+
+.kvkk {
+    display: flex;
+    justify-content: space-around;
+}
+
+.kvkk button {
+    background-color: rgb(83, 171, 142);
+    border: transparent;
+    outline: none;
+    width: 100px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ok:active,hover {
+    opacity: 0.5;
+}
+.no:active:hover {
+    opacity: 0.5;
+}
+

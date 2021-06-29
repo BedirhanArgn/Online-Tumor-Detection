@@ -1,0 +1,112 @@
+.chat-wrapper {
+    margin-right: 40px;
+    height: 91vh;
+    width: 80vw;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.text-area {
+    width: 95%;
+    margin: 0px auto 10px auto;
+    height: 600px;
+    background-color: #ffffff;
+}
+
+.message-box {
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+.message-container {
+    background-color: white;
+    width: 0%;
+}
+
+.message-area {
+    margin: 0px auto;
+    width: 100%;
+    height: 5vh;
+}
+
+.message-area input[type="text"] {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 95%;
+    height: 30px;
+    padding-left: 8px;
+    outline: none;
+}
+
+.send-button {
+    margin-right: 10px;
+}
+
+.send-button button {
+    padding: 9px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: rgb(83, 171, 142);
+}
+
+.doctor-left {
+    position: relative;
+    text-align: left;
+}
+
+.doctor-left p {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #48AAC8;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.doctor-right p {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgb(72 170 200 / 56%);
+    color: black;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+.doctor-right {
+    position: relative;
+    text-align: right;
+}
+
+.doctormessage-rigth {
+    position: relative;
+    text-align: right;
+}
+
+
+.doctormessage-rigth p {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: rgb(72 170 200 / 56%);
+    color: black;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.doctormessage-left {
+    position: relative;
+    text-align: left;
+}
+
+.doctormessage-left p {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #48AAC8;
+    color: white;
+    border-radius: 20px;
+    display: inline-block;
+}

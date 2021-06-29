@@ -1,0 +1,31 @@
+.doctor-area {
+    width: 20%;
+    border: 1px solid rgb(83, 171, 142);
+    background-color: rgb(83 171 142 / 67%);
+}
+
+.doctor div {
+    position: relative;
+    top: -20px;
+}
+
+.doctor {
+    background-color: rgb(83, 171, 142);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.doctor-item {
+    width: 100%;
+    padding: 1px;
+    background-color: rgb(83 171 142 / 67%);
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+.chat-app-wrapper {
+    display: flex;
+    height: 91.5vh;
+}

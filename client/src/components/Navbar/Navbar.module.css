@@ -1,0 +1,23 @@
+.navbar {
+    height: 60px;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+.hamburgerMenu {
+    max-width: 250px;
+    height:calc(100% - 60px);
+    position: absolute;
+    left:0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.hamburgerMenuClose {
+    max-width: 250px;
+    height:calc(100% - 60px);
+    position: absolute;
+    left: -250px;
+    transition: all 0.5s ease-in-out ;
+}

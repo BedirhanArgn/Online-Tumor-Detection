@@ -1,0 +1,62 @@
+.tumor-classification {
+    border: 1px solid transparent;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 10px;
+    height: 80vh;
+}
+
+
+.control img {
+    width: 300px;
+    height: 500px;
+}
+
+.control label {
+    background-color: #48AAC8;
+    color: white;
+    padding: 6px 10px 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.image-holder {
+    border:1px solid transparent;
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.buttons button {
+    cursor: pointer;
+    margin-left: 5px;
+    background-color: #48AAC8;
+    border:transparent;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.spinner {
+    position: absolute;
+    top: 40%;
+    left: 47%;
+
+}
+
+.result {
+    position: absolute;
+    top:300px;
+    left: 600px;
+    background-color: #48AAC8;
+    box-shadow: rgba(99, 99, 99, 0.2) 3px 2px 8px 3px;
+    padding: 50px 50px;
+    font-size: 22px;
+    color: white;
+    border-radius: 10px;
+}
